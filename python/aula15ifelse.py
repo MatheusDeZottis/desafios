@@ -1,5 +1,5 @@
 # if / elif / else
-#se / se não / se não 
+#se / se não se  / se não 
 
 entrada = input(' Você quer "entrar" ou "sair" ')
 
@@ -14,5 +14,5 @@ elif entrada == "sair":
 else:
     print("Você não digitou nem entrar e nem sair.")
 
-print("Fora dos blocos")
+
 

@@ -1,10 +1,6 @@
-nome = input("Qual o seu nome ? ")
-idade = input("Qual a sua idade ?")
-altura_em_metros = float(input("Qual é a sua altura ?"))
-peso = input("Quantos quilos você pesa ?")
-imc = peso / altura_em_metros **2
-print("Satisfaçoẽs meu nome é ", nome )
-print("Sua  idade é ", idade)
-print("Sua altura é ", altura_em_metros)
-print("você pesa :", peso )
-print("Seu imc é ",imc / altura_em_metros **2)
+idade = int(input("digite a sua idade"))
+if idade < 18:
+    print("menor de idade")
+else:
+    print("você é maior de idade")
+
