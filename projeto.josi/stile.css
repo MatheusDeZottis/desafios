@@ -44,5 +44,17 @@
 
 }
 
+
+header {
+    background-color: #FFDE22;
+    grid-column: 1 / 3;
+    }
+    .sidebar {
+    background-color: #FF7755;
+    grid-row: 2 / 4;
+    }
+    .nav {
+    background-color: #00DDFF;
+ }
  
 

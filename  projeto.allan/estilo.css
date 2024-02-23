@@ -1,10 +1,11 @@
 lista de compras {
-    color: rgb(49, 0, 45); 
+    color: rgb(7, 88, 4); 
  
 }
 li{
 
-    color: #f30707;
+    color: #ff1414;
+    font-size: 80px;
 }
 
 h1{
@@ -13,7 +14,7 @@ color: #f81d1d;
 
 }
 body{
-background-color: #19361c;
+background-color: #FFFF00;
 
 }
 

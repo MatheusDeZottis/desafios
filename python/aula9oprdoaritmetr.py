@@ -6,7 +6,7 @@ subtracao = 10 - 5
 print("Subtração", subtracao)
 
 multiplicacao = 10 * 10 
-print("Multipicao", multiplicacao)
+print("Multiplição", multiplicacao)
 
 divisao = 10 / 2.2
 print("Divisão", divisao)
