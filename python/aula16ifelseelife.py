@@ -10,6 +10,13 @@ elif entrada == "sair":
     print("Você saiu do sistema")
 
 else:
-     print("Você não digitou nem entrar e nem sair.")
+    print("Você não digitou nem entrar e nem sair.")
     
+print("123244")
+print("matheus")
+print("meu nome")
+print("meu nome")
+print("meu nome")
+print("meu nome")
+
     
