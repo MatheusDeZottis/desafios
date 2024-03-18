@@ -1,0 +1,46 @@
+.container{
+    max-width: 50;
+    margin: 5%;
+    padding: 30px;
+    background-color: aliceblue;
+
+}
+
+form{
+    margin-bottom: 90px;
+
+
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    
+
+}
+
+input,
+textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color:#00FF00
+    color:#000000;
+    border:none; 
+    cursor:pointer; 
+    
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+   
+}
+
+

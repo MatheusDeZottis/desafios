@@ -1,16 +1,18 @@
 .flex-container{/* display: flex; */
+   
 
 }
     
 /* este seletor seleciona todas as divs dentro de
 .flex-container */
-.flex-container div { background: peachpuff; border: 4px solid brown; height: 100px;
-    /* flex: 1; */
+.flex-container div { 
+    background: peachpuff; 
+    border: 4px solid brown; 
+    height: 100px;
+    flex: 1; 
 }
-div {
-    flex: 1;
 
-}
+
 
 .flex-container { display: flex;
 }
@@ -31,8 +33,11 @@ flex: 1 1 0%;
 
 /* este seletor seleciona todas as divs dentro de
 .flex-container */
+
 .flex-container div { background: peachpuff; border: 4px solid brown; height: 100px;
 width: 250px; flex: 1 1 auto;
+grid-column: auto;
+
 }
 
 .flex-container .two { flex-shrink: 0;
@@ -48,13 +53,15 @@ width: 250px; flex: 1 1 auto;
     
 /* este seletor seleciona todas as divs dentro de
 .flex-container */
-.flex-container div { background: peachpuff; border: 4px solid brown; height: 80px;
+.flex-container div { background: peachpuff; 
+    border: 4px solid brown; 
+    height: 80px;
     flex: 1 1 auto;
 }
-
 .container { height: 140px; padding: 16px; background: plum;
 
     border: 4px solid indigo; display: flex;
+
 }
 
 
@@ -111,9 +118,12 @@ background: skyblue;
 }
 
 .flex-items {
-background-color: #f4f4f4; width: 100px;
-height:50px; margin: 10px;
-text-align: center; font-size: 40px;
+background-color: #f4f4f4; 
+width: 100px;
+height:50px; 
+margin: 10px;
+text-align: center; 
+font-size: 40px;
 }
 
 .flex1 { display: flex; 
@@ -143,12 +153,15 @@ text-align: center; font-size: 40px;
     height: 200px;
     align-items: flex-end; 
     background-color: green;
+    
 }
 
 .flex-items {
-background-color: #f4f4f4; width: 100px;
+background-color: #f4f4f4; 
+width: 100px;
 margin: 10px;
-text-align: center; font-size: 50px;
+text-align: center; 
+font-size: 50px;
 }
 .main-container { display: flex; 
     height: 400px; 
@@ -162,4 +175,6 @@ text-align: center; font-size: 50px;
     margin: 10px;
     text-align: center; 
     font-size: 50px;
+
+
 }
