@@ -8,6 +8,12 @@ body {
 
     background-image: linear-gradient(to right, #67F4B1 , #2A99EA);
 }
+img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 p {
 
