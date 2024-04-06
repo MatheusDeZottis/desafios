@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> links </title>
+    <style>
+        /*
+        SELETORES PERSONALIZADOS
+        # = ID
+        . = Class
+        : = pseudo-element
+        :: = clildren
+
+        */
+
+        
+        a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+        a:visited {
+            color: rgb(252, 104, 104);
+            
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::after {
+            content:' [limk]';
+            text-decoration: none;
+            font-weight: normal;
+            color: aqua;
+
+        }
+        a::before {
+            content: '↦';
+            color: yellowgreen;
+        }
+        a::after {
+            content: '↤';
+            color: yellowgreen;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <h1> personalizando links </h1>
+    <ul>
+        <li> <a href="https://github.com/MatheusDeZottis" target="_self">Reporsitório GitHup</a> </li>
+        <li><a href="https://www.youtube.com/" target="_blank">canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank">site do Curso em video</a></li>
+
+    </ul>
+</body>
+</html>
